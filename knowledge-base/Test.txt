@@ -1,0 +1,7 @@
+# knowledge-base/agent-install.txt
+New Relic Agent Installation Error: Status Code 404
+If you encounter a 404 during agent installation, this often means the license key is incorrect or the ingestion endpoint is misconfigured. Verify the NRIA_LICENSE_KEY environment variable is set correctly and check regional endpoints.
+
+# knowledge-base/log-config.txt
+Troubleshooting Log Ingestion Issues
+Logs not appearing? Check your firewall rules to ensure traffic is allowed on port 443 to the log ingestion endpoint. Also, verify the logging configuration file (newrelic-logging.yml) has the correct paths.
